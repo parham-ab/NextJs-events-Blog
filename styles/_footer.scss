@@ -1,0 +1,23 @@
+.footer-container {
+//   bottom: 0 !important;
+//   position: absolute;
+//   width: 100%;
+  svg {
+    font-size: 1.4rem;
+  }
+  .github {
+    svg {
+      color: #141954;
+    }
+  }
+  .linkdin {
+    svg {
+      color: #2b76b7;
+    }
+  }
+  .gmail {
+    svg {
+      color: #d34040;
+    }
+  }
+}

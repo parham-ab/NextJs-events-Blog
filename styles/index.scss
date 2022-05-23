@@ -1,0 +1,40 @@
+// CSS Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+a {
+  color: rgb(95, 95, 95) !important;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(158, 158, 158);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(187, 187, 187);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(207, 207, 207);
+}
+.box_shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+// styles
+@import "footer";
+@import "cardDetails";
+@import "loading";
+@import "eventSearch";

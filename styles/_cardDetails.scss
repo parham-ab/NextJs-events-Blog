@@ -1,0 +1,25 @@
+.card-details {
+  background-color: #d4d3ff;
+  margin: 60px auto;
+  border-radius: 7px;
+  width: 660px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  img {
+    border: solid 3px #277d9f !important;
+    border-radius: 100%;
+  }
+}
+// media query
+@media screen and(max-width:'710px') {
+  .card-details {
+    width: 300px !important;
+    img {
+      border-radius: 0;
+    }
+    .details-container {
+      flex-direction: column !important;
+    }
+  }
+}
