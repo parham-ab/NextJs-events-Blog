@@ -48,7 +48,7 @@ const EventDetails = () => {
           <Image
             width={"600px"}
             src={notFound}
-            alt="صفحه ای که به دنبال آن بودید یافت نشد"
+            alt="notFound"
           />
         </div>
       </LayOut>
@@ -79,7 +79,7 @@ const EventDetails = () => {
           <Image
             width={"600px"}
             src={notFound}
-            alt="صفحه ای که به دنبال آن بودید یافت نشد"
+            alt="notFound"
           />
         </div>
       </LayOut>
