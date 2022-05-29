@@ -24,7 +24,7 @@ const NotFound = () => {
         <Image
           width={"600px"}
           src={notFound}
-          alt="صفحه ای که به دنبال آن بودید یافت نشد"
+          alt="notFound"
         />
         <Typography
           variant="h5"
